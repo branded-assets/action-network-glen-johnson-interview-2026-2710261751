@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex" />
+<title>Glen Johnson | Exclusive Chelsea Interview | Action Network</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --an-green:#00b67a;
+  --an-green-bright:#00e09a;
+  --an-green-dark:#00865b;
+  --an-green-soft:#e8fff6;
+  --an-navy:#101820;
+  --an-navy-2:#152630;
+  --an-bg:#ffffff;
+  --an-bg2:#f7faf8;
+  --an-border:#dfe7e3;
+  --an-border-2:#cfd8d3;
+  --an-text:#20252a;
+  --an-muted:#6d7880;
+  --an-display:'Barlow Condensed', Impact, 'Arial Narrow', sans-serif;
+  --an-serif:'Source Serif 4', Georgia, serif;
+  --an-shadow:0 16px 38px rgba(16,24,32,.08);
+  --an-shadow-strong:0 22px 58px rgba(16,24,32,.14);
+}
+html,body{margin:0;padding:0;background:var(--an-bg);scroll-behavior:smooth;}
+*,*::before,*::after{box-sizing:border-box;}
+body{font-family:var(--an-serif);color:var(--an-text);font-size:17px;line-height:1.68;}
+h1,h2,h3,h4,.an-display{font-family:var(--an-display);}
+.an-page{width:100%;overflow-x:clip;}
+.an-wrap{max-width:none;margin:0;padding:0 clamp(16px,2.4vw,40px);}
+/* ============ REVEAL ============ */
+.an-reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease;}
+.an-reveal.is-visible{opacity:1;transform:translateY(0);}
+@media (prefers-reduced-motion:reduce){
+  .an-reveal{opacity:1;transform:none;transition:none;}
+}
+/* ============ HERO BAND (full-bleed dark) ============ */
+.an-band-dark{position:relative;background:
+  radial-gradient(1100px 520px at 82% -10%, rgba(0,224,154,.16), transparent 55%),
+  radial-gradient(700px 420px at -8% 108%, rgba(0,182,122,.12), transparent 60%),
+  linear-gradient(150deg,#0b1218 0%, var(--an-navy) 46%, var(--an-navy-2) 100%);
+  color:#fff;overflow:hidden;}
+.an-band-dark::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+  background-size:64px 64px;mask-image:radial-gradient(1200px 600px at 70% 20%, #000 0%, transparent 78%);
+  -webkit-mask-image:radial-gradient(1200px 600px at 70% 20%, #000 0%, transparent 78%);}
+.an-band-inner{position:relative;z-index:2;padding:clamp(28px,3.6vw,52px) clamp(16px,2.4vw,40px) clamp(30px,4vw,56px);}
+.an-band-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-bottom:clamp(22px,3vw,34px);}
+.an-logo-lockup{display:inline-flex;align-items:center;gap:0;}
+.an-logo-svg{height:28px;width:auto;display:block;}
+.an-logo-circle{fill:none;stroke:var(--an-green-bright);stroke-width:3.4;}
+.an-logo-check{fill:none;stroke:var(--an-green-bright);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;}
+.an-logo-word{font-family:var(--an-display);font-weight:900;font-size:21px;letter-spacing:.14em;fill:#fff;}
+.an-kicker{display:inline-flex;align-items:center;gap:10px;font-family:var(--an-display);font-weight:700;font-size:14px;letter-spacing:.24em;text-transform:uppercase;color:var(--an-green-bright);margin:0;}
+.an-kicker::before{content:"";width:34px;height:2px;background:var(--an-green-bright);}
+.an-hero-tag{display:inline-flex;align-items:center;gap:9px;font-family:var(--an-display);font-weight:800;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--an-navy);background:var(--an-green-bright);padding:7px 14px;margin:0 0 16px;}
+.an-hero-tag::before{content:"";width:8px;height:8px;background:var(--an-navy);transform:rotate(45deg);}
+.an-hero h1{margin:0;font-weight:900;font-size:clamp(36px,5.4vw,72px);line-height:.98;letter-spacing:0;text-transform:none;color:#fff;max-width:none;}
+.an-hero h1 .accent{color:var(--an-green-bright);}
+.an-hero-dek{margin:clamp(16px,2vw,24px) 0 0;font-family:var(--an-serif);font-size:clamp(17px,1.6vw,21px);line-height:1.62;color:rgba(255,255,255,.82);max-width:none;}
+.an-hero-dek strong{color:#fff;}
+.an-hero-cred{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.12);margin-top:clamp(20px,2.6vw,32px);}
+.an-hero-cred .cell{position:relative;background:rgba(16,24,32,.66);padding:clamp(12px,1.8vw,18px) clamp(12px,1.9vw,20px) clamp(11px,1.7vw,16px);overflow:hidden;}
+.an-hero-cred .cell::after{content:"";position:absolute;top:-26px;right:-26px;width:52px;height:52px;background:rgba(0,224,154,.10);transform:rotate(45deg);}
+.an-hero-cred b{display:block;font-family:var(--an-display);font-weight:800;font-size:clamp(14px,1.9vw,27px);line-height:1.08;letter-spacing:.01em;text-transform:uppercase;color:#fff;}
+.an-hero-cred span{display:block;margin-top:6px;font-family:var(--an-display);font-weight:600;font-size:clamp(9.5px,1.1vw,12.5px);letter-spacing:.14em;text-transform:uppercase;color:var(--an-green-bright);}
+/* ============ SECTIONS ============ */
+.an-section{padding:clamp(44px,5.6vw,80px) 0;}
+.an-section.alt{background:var(--an-bg2);border-top:1px solid var(--an-border);border-bottom:1px solid var(--an-border);}
+.an-sec-head{display:flex;align-items:flex-end;gap:18px;margin-bottom:10px;}
+.an-sec-num{font-family:var(--an-display);font-weight:900;font-size:clamp(15px,1.4vw,18px);letter-spacing:.2em;color:var(--an-green-dark);border:2px solid var(--an-green);padding:5px 11px;margin-bottom:8px;}
+.an-sec-head h2{margin:0;font-weight:900;font-size:clamp(36px,4.8vw,60px);line-height:.96;letter-spacing:0;color:var(--an-navy);}
+.an-sec-head h2 .accent{color:var(--an-green-dark);}
+.an-rule{width:64px;height:8px;background:linear-gradient(90deg,var(--an-green),var(--an-green-dark));margin:16px 0 24px;transform-origin:left center;}
+.an-reveal.is-visible .an-rule,.an-rule.an-reveal.is-visible{animation:an-rule-grow .7s ease both;}
+@keyframes an-rule-grow{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+.an-copy{max-width:none;}
+.an-copy p{margin:0 0 16px;max-width:none;}
+/* ============ OVERVIEW CARDS ============ */
+.an-ov-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,1.8vw,22px);margin-top:6px;}
+.an-ov-card{position:relative;background:#fff;border:1px solid var(--an-border);border-top:6px solid var(--an-green);box-shadow:var(--an-shadow);padding:clamp(20px,2.2vw,28px) clamp(18px,2vw,26px);overflow:hidden;transition:transform .22s ease, box-shadow .22s ease;}
+.an-ov-card:hover{transform:translateY(-4px);box-shadow:var(--an-shadow-strong);}
+.an-ov-card::after{content:"";position:absolute;top:-34px;right:-34px;width:68px;height:68px;background:var(--an-green-soft);transform:rotate(45deg);}
+.an-ov-num{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--an-navy);color:var(--an-green-bright);font-family:var(--an-display);font-weight:900;font-size:20px;margin-bottom:14px;}
+.an-ov-card p{position:relative;z-index:1;margin:0;font-size:16.5px;line-height:1.64;max-width:none;}
+.an-ov-card p strong{color:var(--an-navy);}
+/* ============ QUOTE CARDS ============ */
+.an-quote{position:relative;background:linear-gradient(135deg, rgba(0,224,154,.15), transparent 44%), linear-gradient(140deg,#0b191b 0%, var(--an-navy-2) 55%, var(--an-navy) 100%);color:#fff;padding:clamp(28px,3.8vw,50px);border-left:6px solid var(--an-green-bright);box-shadow:var(--an-shadow-strong);overflow:hidden;}
+.an-quote::after{content:"";position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:rgba(0,224,154,.09);transform:rotate(45deg);}
+.an-quote::before{content:"\201C";position:absolute;top:-14px;left:14px;font-family:var(--an-display);font-weight:900;font-size:190px;line-height:1;color:rgba(0,224,154,.12);pointer-events:none;}
+.an-quote-kicker{position:relative;z-index:1;display:inline-flex;align-items:center;gap:9px;font-family:var(--an-display);font-weight:800;font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--an-navy);background:var(--an-green-bright);padding:6px 12px;margin:0 0 18px;}
+.an-quote blockquote{position:relative;z-index:1;margin:0;font-size:clamp(18px,1.9vw,24px);line-height:1.58;font-style:italic;max-width:none;}
+.an-quote blockquote p{margin:0 0 16px;max-width:none;}
+.an-quote blockquote p:last-child{margin-bottom:0;}
+.an-quote blockquote .hl{color:var(--an-green-bright);font-style:italic;}
+.an-quote cite{position:relative;z-index:1;display:inline-flex;align-items:center;gap:10px;margin-top:22px;font-style:normal;font-family:var(--an-display);font-weight:700;font-size:14.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--an-green-bright);}
+.an-quote cite::before{content:"";width:10px;height:10px;background:var(--an-green-bright);transform:rotate(45deg);box-shadow:0 0 0 4px rgba(0,224,154,.18);}
+.an-quote cite small{font-size:12px;letter-spacing:.16em;color:rgba(255,255,255,.62);font-weight:600;}
+/* ============ Q BLOCK ============ */
+.an-q{display:grid;grid-template-columns:56px minmax(0,1fr);gap:clamp(14px,1.8vw,22px);align-items:start;margin:clamp(30px,3.6vw,46px) 0 clamp(16px,2vw,24px);}
+.an-q-badge{display:flex;align-items:center;justify-content:center;width:56px;height:56px;background:var(--an-navy);color:var(--an-green-bright);font-family:var(--an-display);font-weight:900;font-size:26px;letter-spacing:.02em;position:relative;}
+.an-q-badge::after{content:"";position:absolute;bottom:-5px;left:0;width:100%;height:5px;background:var(--an-green);}
+.an-q h3{margin:0;font-weight:800;font-size:clamp(24px,2.8vw,36px);line-height:1.06;color:var(--an-navy);letter-spacing:.01em;}
+.an-q h3 .qmark{color:var(--an-green-dark);}
+.an-sl-tag{display:inline-flex;align-items:center;gap:8px;font-family:var(--an-display);font-weight:800;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--an-green-dark);margin:0 0 12px;}
+.an-sl-tag::before{content:"";width:26px;height:3px;background:var(--an-green);}
+.an-answer{margin-top:6px;}
+.an-answer + .an-answer{margin-top:clamp(16px,2vw,22px);}
+/* ============ SEPARATOR ============ */
+.an-sep{display:flex;align-items:center;gap:18px;padding:clamp(10px,1.6vw,20px) clamp(16px,2.4vw,40px);background:var(--an-bg);}
+.an-sep::before,.an-sep::after{content:"";flex:1;height:1px;background:var(--an-border-2);}
+.an-sep-diamond{width:12px;height:12px;background:var(--an-green);transform:rotate(45deg);flex:none;}
+/* ============ FOOTER ============ */
+.an-footer{background:var(--an-navy);color:rgba(255,255,255,.7);padding:clamp(36px,4.6vw,56px) 0;margin-top:0;}
+.an-footer .an-logo-word{fill:#fff;}
+.an-footer p{margin:14px 0 0;font-size:14px;line-height:1.7;max-width:none;}
+.an-footer strong{color:#fff;}
+/* ============ RESPONSIVE ============ */
+@media (max-width:960px){
+  .an-ov-grid{grid-template-columns:1fr;}
+}
+@media (max-width:640px){
+  .an-q{grid-template-columns:44px minmax(0,1fr);}
+  .an-q-badge{width:44px;height:44px;font-size:21px;}
+}
+
+/* Article-specific spacing, using original design-system variables. */
+.an-article-copy .an-paragraph > p{margin:0 0 22px;max-width:1150px;}
+.an-article-copy .an-paragraph:last-child > p{margin-bottom:0;}
+.an-hero h1{max-width:1200px;}
+.an-hero .an-band-inner{padding-bottom:clamp(42px,5.1vw,76px);}
+.an-section{scroll-margin-top:24px;}
+.an-article-copy{font-size:clamp(17px,1.32vw,19px);line-height:1.77;}
+.an-article-copy > p{margin:0 0 22px;max-width:1150px;}
+.an-article-copy a{color:var(--an-green-dark);font-weight:700;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px;}
+.an-article-copy a:hover{color:#006846;}
+.an-article-copy a:focus-visible{outline:3px solid var(--an-green);outline-offset:4px;}
+.an-article-copy .an-quote{margin:26px 0 30px;max-width:1280px;}
+.an-article-copy .an-quote blockquote{font-size:clamp(18px,1.8vw,23px);line-height:1.58;}
+.an-article-copy .an-quote cite{margin-top:20px;}
+.an-article-copy .an-quote blockquote p{margin:0;max-width:none;}
+.an-sec-head h2{overflow-wrap:break-word;}
+.an-intro .an-article-copy > p:last-child{margin-bottom:0;}
+.an-section:last-of-type{padding-bottom:clamp(60px,6vw,95px);}
+@media (max-width:640px){
+  .an-sec-head{align-items:flex-start;gap:12px;}
+  .an-sec-head h2{font-size:clamp(32px,9vw,42px);line-height:1.02;}
+  .an-article-copy{font-size:17px;}
+  .an-hero h1{font-size:clamp(38px,10vw,56px);line-height:1.02;}
+  .an-article-copy .an-quote{padding:clamp(24px,6vw,32px);}
+  .an-quote cite{flex-wrap:wrap;line-height:1.35;}
+}
+
+/* Compact interview header: native CMS contains the article H1 and introduction. */
+.an-hero .an-band-inner{padding-top:clamp(22px,2.5vw,32px);padding-bottom:clamp(22px,2.5vw,32px);}
+.an-hero .an-band-top{margin-bottom:14px;}
+.an-hero .an-hero-tag{margin:0;}
+</style>
+</head>
+<body>
+<main class="an-page">
+<header class="an-band-dark an-hero">
+  <div class="an-band-inner">
+    <div class="an-band-top"><div class="an-logo-lockup" aria-label="Action Network">
+  <svg class="an-logo-svg" viewBox="0 0 228 34" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Action Network">
+    <circle class="an-logo-circle" cx="13" cy="17" r="11"></circle>
+    <path class="an-logo-check" d="M8 17.3 l3.4 3.4 l6.8 -7.4"></path>
+    <text class="an-logo-word" x="30" y="22.4">ACTION NETWORK</text>
+  </svg>
+</div><div class="an-kicker">Football · Chelsea</div></div>
+    <span class="an-hero-tag">Glen Johnson · Exclusive Interview</span>
+  </div>
+</header>
+<section class="an-section" id="section-1">
+  <div class="an-wrap">
+    <div class="an-sec-head an-reveal"><span class="an-sec-num">01</span><h2>Alex Scott is on the right path, but Johnson wants to see more</h2></div>
+    <div class="an-rule an-reveal"></div>
+    <div class="an-copy an-article-copy">
+<div class="an-reveal an-paragraph"><p>Scott isn’t short of admirers. Reports have Bournemouth holding out for a fee close to $133m. Andoni Iraola coached him on the south coast before taking the Liverpool job. He is also reportedly interested in bringing Scott to Anfield.</p></div>
+<div class="an-reveal an-paragraph"><p>For Johnson, none of that is quite enough yet. The only question that matters is whether Scott can do it at a club expected to win things every week.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“Alex Scott is a good player but I haven’t seen enough of him to say if he’s at the top-four level. We don’t know yet, but he’s definitely shown some glimpses and started the season very well, and obviously got himself in the England fold, and that’s only going to boost his confidence.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+<div class="an-reveal an-paragraph"><p>The trajectory Scott is on, in Johnson’s view, is the right one. It just isn’t yet clear he’s at the level needed to pull on a Chelsea jersey.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“I think I need to see some more, but I think he’s definitely on the right path to be playing for one of the top teams.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+    </div>
+  </div>
+</section>
+<div class="an-sep" aria-hidden="true"><span class="an-sep-diamond"></span></div>
+<section class="an-section alt" id="section-2">
+  <div class="an-wrap">
+    <div class="an-sec-head an-reveal"><span class="an-sec-num">02</span><h2>Frenkie de Jong would be a gamble worth taking, if he’s fit</h2></div>
+    <div class="an-rule an-reveal"></div>
+    <div class="an-copy an-article-copy">
+<div class="an-reveal an-paragraph"><p>Chelsea head coach Xabi Alonso is said to be a long-standing admirer of de Jong, in particular his passing range. However, a big issue for the Dutchman has been injuries.</p></div>
+<div class="an-reveal an-paragraph"><p>He tore a medial collateral ligament during the Netherlands’ World Cup exit to Morocco in June. It has kept him out since. He has only just worked his way back into Barcelona coach Hansi Flick’s game-day squad as a substitute.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“If Frenkie de Jong is fit, he’s a great player. I don’t know how he is with the recent injury, but he’s been out for a while and how the deal would go in terms of finances, God knows what he would cost, but as long as he’s fit, then, yeah, I think he’d be a great signing.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+    </div>
+  </div>
+</section>
+<div class="an-sep" aria-hidden="true"><span class="an-sep-diamond"></span></div>
+<section class="an-section" id="section-3">
+  <div class="an-wrap">
+    <div class="an-sec-head an-reveal"><span class="an-sec-num">03</span><h2>Cole Palmer’s dip was a fitness issue, not form</h2></div>
+    <div class="an-rule an-reveal"></div>
+    <div class="an-copy an-article-copy">
+<div class="an-reveal an-paragraph"><p>A persistent groin problem dragged on through the back end of last season for Chelsea star Palmer. It hampered the form and performances fans have come to expect from the attacking midfielder. It ultimately cost him his place in England’s World Cup squad.</p></div>
+<div class="an-reveal an-paragraph"><p>This season, though, he has four goals in 10 appearances across all competitions. The Palmer of old is beginning to find his way back. That’s despite the red card he received in the London derby against Tottenham over the weekend.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“Of course players can always improve in terms of numbers but I think we’re seeing Palmer at his best again. We all know what he’s capable of, but last season he was playing with injuries so naturally he couldn’t do what he needed to do to impact games.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+<div class="an-reveal an-paragraph"><p>In Johnson’s view, a player carrying an injury through the final stretch of last season was never going to show what he’s capable of.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“We’re seeing this Cole Palmer because he’s fit and he’s playing regularly because his ability has never been questioned, but as we know, he was nursing an injury for the last sort of 10 games last season, and that’s hard for anyone to do, so I think we are just seeing him back fit and enjoying his football.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+    </div>
+  </div>
+</section>
+<div class="an-sep" aria-hidden="true"><span class="an-sep-diamond"></span></div>
+<section class="an-section alt" id="section-4">
+  <div class="an-wrap">
+    <div class="an-sec-head an-reveal"><span class="an-sec-num">04</span><h2>Palmer’s new deal shuts the door on an exit</h2></div>
+    <div class="an-rule an-reveal"></div>
+    <div class="an-copy an-article-copy">
+<div class="an-reveal an-paragraph"><p>Palmer joined Chelsea from Manchester City for £42.5m in 2023. He has racked up 91 goal contributions in 138 appearances since. Chelsea have now extended his contract by a further year, tying him to the club until 2034. It’s a lengthy deal. Yet Johnson sees it as Chelsea shutting the door on any club hoping to come sniffing for Palmer’s services.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“With his new contract Palmer will get that security and Chelsea now know that if everything goes well, they’ve got a fantastic player on their hands that no one can touch. The price that other teams would have to pay for him now would just be crazy and that would just put teams off. Time will tell, but it could be a great deal for Chelsea and him if it keeps going this way.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+<div class="an-reveal an-paragraph"><p>Johnson doesn’t rule out a club eventually paying what it takes. He points to how far transfer fees have climbed in recent years. Yet he’s clear that Chelsea have made signing Palmer as unappealing as possible for their rivals.</p></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“Years ago we would have said that no one would have paid £100 million for a player but things obviously change and keep going up, so I wouldn’t say never. I just think that with the new extension of the contract and the length of the contract, you’d have to pay a lot of money. Probably £50 million more than you even think he’s worth, just to get him out of that contract, so I just don’t think it would be in anyone’s benefit to do that.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+<div class="an-quote an-reveal"><span class="an-quote-kicker">Glen Johnson on Chelsea</span>
+            <blockquote><p>“Of course he’s a great player, but I think Chelsea would have just done this in a way that shuts that door and makes it almost impossible for anyone to get him.”</p></blockquote>
+            <cite>Glen Johnson <small>· Speaking to Action Network</small></cite></div>
+    </div>
+  </div>
+</section>
+<footer class="an-footer"><div class="an-wrap"><div class="an-logo-lockup" aria-label="Action Network">
+  <svg class="an-logo-svg" viewBox="0 0 228 34" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Action Network">
+    <circle class="an-logo-circle" cx="13" cy="17" r="11"></circle>
+    <path class="an-logo-check" d="M8 17.3 l3.4 3.4 l6.8 -7.4"></path>
+    <text class="an-logo-word" x="30" y="22.4">ACTION NETWORK</text>
+  </svg>
+</div>
+  <p><strong>Exclusive interview:</strong> Glen Johnson speaking to Action Network.</p>
+</div></footer>
+</main>
+<script>
+(function(){
+  // Scroll reveal
+  var els = document.querySelectorAll('.an-reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    },{threshold:.14, rootMargin:'0px 0px -6% 0px'});
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+  // Auto-height for iframe embedding (ResizeObserver + postMessage)
+  function postHeight(){
+    try{
+      var h = document.documentElement.scrollHeight;
+      parent.postMessage({type:'an-embed-height', height:h}, '*');
+    }catch(e){}
+  }
+  if('ResizeObserver' in window){
+    new ResizeObserver(postHeight).observe(document.documentElement);
+  }
+  window.addEventListener('load', postHeight);
+})();
+</script>
+</body></html>
